@@ -59,7 +59,7 @@ body {
     box-shadow: 0 0 0 3px rgba(255, 91, 79,.2)!important;
     transition: box-shadow,border-color .25s;
 }
-#sidebar #search-btn {
+#sidebar .search-btn {
     white-space:nowrap;
     font-size: 16px;
     line-height: 24px;
@@ -73,7 +73,7 @@ body {
     color: #fff;
     transition: box-shadow .25s;
 }
-#sidebar #search-btn:hover {
+#sidebar .search-btn:hover {
     box-shadow: 0 0 0 3px rgba(255, 91, 79,.2)!important;
     transition: box-shadow .25s;
 }
@@ -112,7 +112,7 @@ body {
 #header #header-search-box:focus{
     outline: 0;
 }
-#header #search-btn {
+#header .search-btn {
     font-size: 16px;
     line-height: 16px;
     padding: 16px;
