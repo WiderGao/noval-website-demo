@@ -1,0 +1,121 @@
+@media(prefers-color-scheme: dark) {
+    body {
+        background: #232931;
+        color: #6a758e;
+    }
+    #sidebar {
+        background: #1e232b;
+        box-shadow: 0 3px 20px -3px rgba(3, 23, 43, 0.2);
+    }
+    #sidebar-search {
+        background: #1e232b;
+    }
+    #sidebar-search-box {
+        background: #232931;
+        border-color: #232931;
+    }
+    #sidebar-search-box:focus {
+        background: #232931;
+    }
+    .sidebar-content ul li {
+        border-color: #232931;
+    }
+    .toolbar {
+        background: #232931;
+        box-shadow: 0 4px 6px rgba(11, 14, 21, 0.3);
+    }
+    .prev-chapter, .next-chapter {
+        color: #6a758e;
+        background: #1e232b;
+        border-color: #1e232b;
+        box-shadow: none;
+    }
+    .prev-chapter:hover, .next-chapter:hover {
+        box-shadow:0 2px 4px 4px rgba(15, 24, 33, 0.7) inset;
+
+    }
+    .progress {
+        color: #6a758e;
+    }
+    #article .chapter {
+
+        background: #1e232b;
+        box-shadow: 0 10px 20px 0 hsla(0, 0%, 6%, 0.65);
+    }
+    #sidebar #search-btn {
+        color: #000;
+    }
+    .tool-btn a {
+        color: #000 !important;
+    }
+    .pager span {
+        color: #000 !important;
+    }
+    #article .noval-item:before{
+        background: rgba(0, 0, 0, 0.55);
+    }
+    #article .noval-item:hover:before{
+        transition: .15s ease-in;
+        backdrop-filter: brightness(50%);
+    }
+}
+
+body {
+    background: #232931;
+    color: #6a758e;
+}
+#sidebar {
+    background: #1e232b;
+    box-shadow: 0 3px 20px -3px rgba(3, 23, 43, 0.2);
+}
+#sidebar-search {
+    background: #1e232b;
+}
+#sidebar-search-box {
+    background: #232931;
+    border-color: #232931;
+}
+#sidebar-search-box:focus {
+    background: #232931;
+}
+.sidebar-content ul li {
+    border-color: #232931;
+}
+.toolbar {
+    background: #232931;
+    box-shadow: 0 4px 6px rgba(11, 14, 21, 0.3);
+}
+.prev-chapter, .next-chapter {
+    color: #6a758e;
+    background: #1e232b;
+    border-color: #1e232b;
+    box-shadow: none;
+}
+.prev-chapter:hover, .next-chapter:hover {
+    box-shadow:0 2px 4px 4px rgba(15, 24, 33, 0.7) inset;
+
+}
+.progress {
+    color: #6a758e;
+}
+#article .chapter {
+
+    background: #1e232b;
+    box-shadow: 0 10px 20px 0 hsla(0, 0%, 6%, 0.65);
+}
+#sidebar #search-btn {
+    color: #000;
+}
+.tool-btn a {
+    color: #000 !important;
+}
+.pager span {
+    color: #000 !important;
+}
+#article .noval-item:before{
+    background: rgba(0, 0, 0, 0.55);
+}
+#article .noval-item:hover:before{
+    transition: .15s ease-in;
+    backdrop-filter: brightness(50%);
+}

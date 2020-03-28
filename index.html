@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>藏书阁</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" title="dark" href="">
+    <link rel="stylesheet" type="text/css" href="/assets/css/KeSong.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/iconfont.css">
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/js/base.js"></script>
+
+</head>
+
+<body>
+    <div id="main" style="display:none">
+        <div id="sidebar">
+            <div id="sidebar-search">
+                <input type="search" id="sidebar-search-box" placeholder="搜索章节..." oninput="searchChapter()"></input>
+                <button id="search-btn" onclick="searchChapter()"><i class="iconfont icon-search"></i></button>     
+            </div>
+            <div class="sidebar-content">          
+            </div>
+        </div>
+        <div id="article">
+            <div class="toolbar">
+                <div class="prev-chapter" onclick="prevChapter()"><span>上一章</span></div>
+                <div class="progress"><span></span></div>
+                <div class="next-chapter" onclick="nextChapter()"><span>下一章</span></div>
+                <div class="tool-btn">
+                    <a class="color-mode" title="" href="javascript:switchColorMode()"><i class="iconfont"></i></a>
+                    <a class="back-home" title="返回首页" href="/"><i class="iconfont icon-back"></i></a>
+                    <a class="scroll-top" title="回到顶部" href="javascript:scrollTop()"><i class="iconfont icon-up"></i></a>
+                </div>
+            </div>
+            <div id="header">
+                <h1>藏书阁</h1>
+                <input type="search" id="header-search-box" placeholder="找一找有没有你想看的" oninput="searchNoval()"></input>
+                <button id="search-btn" onclick="searchNoval()"><i class="iconfont icon-search"></i></button> 
+            </div>
+            <div class="article-content">
+            </div>
+            <div class="pager"></div>
+        </div>
+    </div>
+</body>
+</html>
