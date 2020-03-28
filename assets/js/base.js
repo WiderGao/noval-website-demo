@@ -1,7 +1,7 @@
 function NovalManager() {
     this.novalListSize = 40;
     this.chapterListSize = 48;
-    this.baseUrl = 'http://12138.site:666/';
+    this.baseUrl = '//12138.site:666/';
     this.currentPage = 1;
     this.currentNoval;
     this.currentChapter;
